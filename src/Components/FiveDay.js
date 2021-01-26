@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
+
 import CastRow from './CastRow'
-import CastSlot from './CastSlot'
 import { formatDate } from '../helper'
 import '../Styles/weatherCard.css'
 import '../Styles/fiveDay.css'

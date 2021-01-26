@@ -7,7 +7,7 @@ const CastSlot = ({ weather }) => {
   console.log(weather)
   const { feels_like, temp } = weather.main
   const { speed } = weather.wind
-  const { description, icon } = weather.weather[0]
+  const { icon } = weather.weather[0]
   return (
     <div className='slot'>
       <p>{formatTwelveHour(weather.dt_txt)}</p>
