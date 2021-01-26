@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.forecast-card{
+  width: 90vw;
+  display: grid;
+  grid-template-rows: repeat(5);
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.outer-forecast-card {
+
+}
+
+.slot {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  background-color: rgba(20, 20, 20, 0.788);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-self: center;
+  align-items: center;
+  border: 3px solid grey;
+  border-radius: 4px;
+  box-shadow: 5px 5px 5px 2.5px rgba(2, 2, 2, 0.256);
+  display: flex;
+  flex-wrap: wrap;
+  flex: 0.3;
+  margin: 7.5px 10px 7.5px 10px;
+}

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.outer-card {
+  display: float;
+  border: rgba(240, 237, 237, 0.288) 5px solid;
+  background-color: rgba(20, 20, 20, 0.274);
+  border-radius: 4px;
+  width: 53vw;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.weather-card {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 30px;
+  background-color: rgba(20, 20, 20, 0.788);
+  width: 50vw;
+  height: 90vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-self: center;
+  align-items: center;
+  border: 3px solid grey;
+  border-radius: 4px;
+  box-shadow: 5px 5px 5px 2.5px rgba(2, 2, 2, 0.256);
+  z-index: 100;
+}
+
+.sun {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+  .outer-card {
+    width: 100vw;
+    height: 99vh;
+    display: hidden;
+    border: none;
+  }
+
+  .weather-card {
+    font-size: 19.5px;
+    width: 90vw;
+    height: 100vh;
+  }
+  .sun {
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+{
+  
+  .outer-card {
+    width: 100vw;
+    display: hidden;
+    border: none;
+  }
+  .weather-card {
+    font-size: 24px;
+    width: 90vw;
+    height: 100vh;
+  }
+}

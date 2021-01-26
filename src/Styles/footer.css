@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+footer {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 10px;
+  width: 100%;
+  border: rgba(240, 237, 237, 0.288) 5px solid;
+  background-color: rgba(20, 20, 20, 0.788);
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+footer a {
+  color: rgba(180, 114, 114, 0.952);
+}
+
